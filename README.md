@@ -134,7 +134,6 @@ CodeConsult/
 
 - **Email:** [vlskrauch@mail.ru](mailto:vlskrauch@mail.ru)
 - **Telegram:** [@worksoto](https://t.me/worksoto)
-- **Location:** Yekaterinburg, Russia
 
 ## 📜 License
 
