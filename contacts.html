@@ -1,0 +1,409 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Контакты - Консультации по программированию</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="css/pages/contacts.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+
+<body>
+    <div id="header-placeholder"></div>
+
+    <!-- Основной контент -->
+    <main>
+        <!-- Герой контактов -->
+        <section class="contacts-hero">
+            <div class="container">
+                <h1 data-i18n="contacts.hero.title">Свяжитесь со мной</h1>
+                <p class="hero-subtitle" data-i18n="contacts.hero.subtitle">Готов обсудить ваш проект и ответить на все вопросы</p>
+            </div>
+        </section>
+
+        <!-- Контактная информация -->
+        <section class="contact-info-section">
+            <div class="container">
+                <h2 data-i18n="contacts.contactInfo.title">Свяжитесь со мной</h2>
+                <p class="contact-intro" data-i18n="contacts.info.intro">Выберите удобный для вас способ связи. Я всегда на связи и готов обсудить ваш проект.</p>
+
+                <div class="contact-methods">
+                    <!-- Основные контакты -->
+                    <div class="primary-contacts">
+                        <div class="contact-card primary-card">
+                            <div class="contact-icon-large">
+                                <i class="fab fa-telegram"></i>
+                            </div>
+                            <div class="contact-content">
+                                <h3 data-i18n="contacts.contactInfo.methods.telegram.title">Telegram</h3>
+                                <p class="contact-value">@worksoto</p>
+                                <p class="contact-description" data-i18n="contacts.contactInfo.methods.telegram.desc">Самый быстрый способ связи. Отвечаю в течение 30 минут.</p>
+                                <a href="https://t.me/worksoto" class="contact-link" target="_blank">
+                                    <span data-i18n="contacts.contactInfo.methods.telegram.link">Написать в Telegram</span>
+                                    <i class="fas fa-external-link-alt"></i>
+                                </a>
+                            </div>
+                        </div>
+
+                        <div class="contact-card primary-card">
+                            <div class="contact-icon-large">
+                                <i class="fas fa-envelope"></i>
+                            </div>
+                            <div class="contact-content">
+                                <h3 data-i18n="contacts.contactInfo.methods.email.title">Email</h3>
+                                <p class="contact-value">vlskrauch@mail.ru</p>
+                                <p class="contact-description" data-i18n="contacts.contactInfo.methods.email.desc">Для официальных запросов и подробных предложений.</p>
+                                <a href="mailto:vlskrauch@mail.ru" class="contact-link">
+                                    <span data-i18n="contacts.contactInfo.methods.email.link">Отправить email</span>
+                                    <i class="fas fa-envelope"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Дополнительные контакты -->
+                    <div class="secondary-contacts">
+                        <div class="contact-row">
+                            <div class="contact-item-compact">
+                                <div class="contact-icon-small">
+                                    <i class="fas fa-clock"></i>
+                                </div>
+                                <div class="contact-text">
+                                    <span class="contact-label" data-i18n="contacts.contactInfo.methods.workHours.title">Рабочее время</span>
+                                    <span class="contact-value" data-i18n="contacts.contactInfo.methods.workHours.value">Пн-Пт: 9:00-21:00</span>
+                                    <span class="contact-note" data-i18n="contacts.contactInfo.methods.workHours.note">Сб-Вс: 10:00-18:00</span>
+                                </div>
+                            </div>
+
+                            <div class="contact-item-compact">
+                                <div class="contact-icon-small">
+                                    <i class="fas fa-globe"></i>
+                                </div>
+                                <div class="contact-text">
+                                    <span class="contact-label" data-i18n="contacts.contactInfo.methods.workFormat.title">Формат работы</span>
+                                    <span class="contact-value" data-i18n="contacts.contactInfo.methods.workFormat.value">Удаленная работа</span>
+                                    <span class="contact-note" data-i18n="contacts.contactInfo.methods.workFormat.note">По всей России и СНГ</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Быстрые действия -->
+                    <div class="quick-actions">
+                        <div class="action-card">
+                            <div class="action-icon">
+                                <i class="fas fa-comments"></i>
+                            </div>
+                            <h4 data-i18n="contacts.contactInfo.actions.consultation.title">Бесплатная консультация</h4>
+                            <p data-i18n="contacts.contactInfo.actions.consultation.desc">Обсудим ваш проект без обязательств</p>
+                            <span class="action-time" data-i18n="contacts.contactInfo.actions.consultation.time">Ответ в течение 2 часов</span>
+                        </div>
+
+                        <div class="action-card">
+                            <div class="action-icon">
+                                <i class="fas fa-calculator"></i>
+                            </div>
+                            <h4 data-i18n="contacts.contactInfo.actions.pricing.title">Расчет стоимости</h4>
+                            <p data-i18n="contacts.contactInfo.actions.pricing.desc">Получите предварительную смету</p>
+                            <span class="action-time" data-i18n="contacts.contactInfo.actions.pricing.time">В течение 1 часа</span>
+                        </div>
+
+                        <div class="action-card">
+                            <div class="action-icon">
+                                <i class="fas fa-rocket"></i>
+                            </div>
+                            <h4 data-i18n="contacts.contactInfo.actions.start.title">Начать проект</h4>
+                            <p data-i18n="contacts.contactInfo.actions.start.desc">Запустим разработку уже сегодня</p>
+                            <span class="action-time" data-i18n="contacts.contactInfo.actions.start.time">Срочные проекты приветствуются</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Форма связи -->
+        <section class="contact-form-section">
+            <div class="container">
+                <div class="form-container">
+                    <div class="form-info">
+                        <div class="conversation-bubble">
+                            <div class="bubble-icon">
+                                <i class="fas fa-user-tie"></i>
+                            </div>
+                            <div class="bubble-content">
+                                <div class="bubble-header">
+                                    <span class="bubble-name" data-i18n="contacts.form.chat.name">Владислав</span>
+                                    <span class="bubble-status" data-i18n="contacts.form.chat.status">онлайн</span>
+                                </div>
+                                <div class="bubble-message">
+                                    <p data-i18n="contacts.form.chat.greeting">Привет! 👋</p>
+                                    <p data-i18n="contacts.form.chat.message1">Расскажите о вашем проекте. Я внимательно изучу ваше сообщение и свяжусь с вами в течение 2 часов.</p>
+                                    <p data-i18n="contacts.form.chat.message2">Все консультации бесплатны и конфиденциальны.</p>
+                                </div>
+                                <div class="bubble-actions">
+                                    <div class="action-item">
+                                        <i class="fas fa-clock"></i>
+                                        <span data-i18n="contacts.form.chat.response">Ответ в течение 2 часов</span>
+                                    </div>
+                                    <div class="action-item">
+                                        <i class="fas fa-shield-alt"></i>
+                                        <span data-i18n="contacts.form.chat.confidentiality">Полная конфиденциальность</span>
+                                    </div>
+                                    <div class="action-item">
+                                        <i class="fas fa-comments"></i>
+                                        <span data-i18n="contacts.form.chat.free">Бесплатная консультация</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="form-motivation">
+                            <div class="motivation-item">
+                                <div class="motivation-icon">
+                                    <i class="fas fa-lightbulb"></i>
+                                </div>
+                                <div class="motivation-text">
+                                    <h4 data-i18n="contacts.form.motivation.idea.title">Идея проекта</h4>
+                                    <p data-i18n="contacts.form.motivation.idea.desc">Опишите вашу идею или проблему</p>
+                                </div>
+                            </div>
+
+                            <div class="motivation-item">
+                                <div class="motivation-icon">
+                                    <i class="fas fa-tasks"></i>
+                                </div>
+                                <div class="motivation-text">
+                                    <h4 data-i18n="contacts.form.motivation.requirements.title">Технические требования</h4>
+                                    <p data-i18n="contacts.form.motivation.requirements.desc">Укажите желаемые технологии или бюджет</p>
+                                </div>
+                            </div>
+
+                            <div class="motivation-item">
+                                <div class="motivation-icon">
+                                    <i class="fas fa-calendar-alt"></i>
+                                </div>
+                                <div class="motivation-text">
+                                    <h4 data-i18n="contacts.form.motivation.timeline.title">Сроки</h4>
+                                    <p data-i18n="contacts.form.motivation.timeline.desc">Когда планируете начать проект?</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="form-wrapper">
+                        <div class="form-chat-container">
+                            <!-- Form as chat messages -->
+                            <form action="#" method="post" class="chat-form">
+                                <div class="chat-message user-message">
+                                    <div class="message-avatar">
+                                        <i class="fas fa-user"></i>
+                                    </div>
+                                    <div class="message-content">
+                                        <div class="message-label" data-i18n="contacts.form.fields.name">Ваше имя</div>
+                                        <input type="text" id="name" name="name" data-i18n="contacts.form.placeholders.name" placeholder="Как вас зовут?" required class="message-input">
+                                    </div>
+                                </div>
+
+                                <div class="chat-message user-message">
+                                    <div class="message-avatar">
+                                        <i class="fas fa-at"></i>
+                                    </div>
+                                    <div class="message-content">
+                                        <div class="message-label" data-i18n="contacts.form.fields.email">Контакт для связи</div>
+                                        <input type="email" id="email" name="email" data-i18n="contacts.form.placeholders.email" placeholder="Email или Telegram" required class="message-input">
+                                    </div>
+                                </div>
+
+                                <div class="chat-message user-message">
+                                    <div class="message-avatar">
+                                        <i class="fas fa-list"></i>
+                                    </div>
+                                    <div class="message-content">
+                                        <div class="message-label" data-i18n="contacts.form.fields.subject">Тема обращения</div>
+                                        <div class="topic-selector">
+                                            <div class="topic-selected" id="selected-topic">
+                                                <span class="topic-placeholder" data-i18n="contacts.form.placeholders.subject">Выберите тему проекта</span>
+                                                <div class="select-arrow">
+                                                    <i class="fas fa-chevron-down"></i>
+                                                </div>
+                                            </div>
+                                            <div class="topic-options" id="topic-options">
+                                                <div class="topic-option" data-value="consultation">
+                                                    <div class="topic-icon">
+                                                        <i class="fas fa-comments"></i>
+                                                    </div>
+                                                    <div class="topic-text">
+                                                        <span class="topic-title" data-i18n="contacts.form.topics.consultation.title">Техническая консультация</span>
+                                                        <span class="topic-description" data-i18n="contacts.form.topics.consultation.desc">Анализ проекта и рекомендации</span>
+                                                    </div>
+                                                </div>
+                                                <div class="topic-option" data-value="web-development">
+                                                    <div class="topic-icon">
+                                                        <i class="fas fa-globe"></i>
+                                                    </div>
+                                                    <div class="topic-text">
+                                                        <span class="topic-title" data-i18n="contacts.form.topics.web.title">Веб-разработка</span>
+                                                        <span class="topic-description" data-i18n="contacts.form.topics.web.desc">Создание сайтов и веб-приложений</span>
+                                                    </div>
+                                                </div>
+                                                <div class="topic-option" data-value="mobile-development">
+                                                    <div class="topic-icon">
+                                                        <i class="fas fa-mobile-alt"></i>
+                                                    </div>
+                                                    <div class="topic-text">
+                                                        <span class="topic-title" data-i18n="contacts.form.topics.mobile.title">Мобильная разработка</span>
+                                                        <span class="topic-description" data-i18n="contacts.form.topics.mobile.desc">Приложения для iOS и Android</span>
+                                                    </div>
+                                                </div>
+                                                <div class="topic-option" data-value="automation">
+                                                    <div class="topic-icon">
+                                                        <i class="fas fa-robot"></i>
+                                                    </div>
+                                                    <div class="topic-text">
+                                                        <span class="topic-title" data-i18n="contacts.form.topics.automation.title">Автоматизация процессов</span>
+                                                        <span class="topic-description" data-i18n="contacts.form.topics.automation.desc">Боты и системы автоматизации</span>
+                                                    </div>
+                                                </div>
+                                                <div class="topic-option" data-value="api-integration">
+                                                    <div class="topic-icon">
+                                                        <i class="fas fa-plug"></i>
+                                                    </div>
+                                                    <div class="topic-text">
+                                                        <span class="topic-title" data-i18n="contacts.form.topics.api.title">Интеграция API</span>
+                                                        <span class="topic-description" data-i18n="contacts.form.topics.api.desc">Подключение внешних сервисов</span>
+                                                    </div>
+                                                </div>
+                                                <div class="topic-option" data-value="database">
+                                                    <div class="topic-icon">
+                                                        <i class="fas fa-database"></i>
+                                                    </div>
+                                                    <div class="topic-text">
+                                                        <span class="topic-title" data-i18n="contacts.form.topics.database.title">Работа с базами данных</span>
+                                                        <span class="topic-description" data-i18n="contacts.form.topics.database.desc">Проектирование и оптимизация БД</span>
+                                                    </div>
+                                                </div>
+                                                <div class="topic-option" data-value="optimization">
+                                                    <div class="topic-icon">
+                                                        <i class="fas fa-tachometer-alt"></i>
+                                                    </div>
+                                                    <div class="topic-text">
+                                                        <span class="topic-title" data-i18n="contacts.form.topics.optimization.title">Оптимизация производительности</span>
+                                                        <span class="topic-description" data-i18n="contacts.form.topics.optimization.desc">Ускорение и улучшение приложений</span>
+                                                    </div>
+                                                </div>
+                                                <div class="topic-option" data-value="security">
+                                                    <div class="topic-icon">
+                                                        <i class="fas fa-shield-alt"></i>
+                                                    </div>
+                                                    <div class="topic-text">
+                                                        <span class="topic-title" data-i18n="contacts.form.topics.security.title">Безопасность приложений</span>
+                                                        <span class="topic-description" data-i18n="contacts.form.topics.security.desc">Защита от уязвимостей</span>
+                                                    </div>
+                                                </div>
+                                                <div class="topic-option" data-value="maintenance">
+                                                    <div class="topic-icon">
+                                                        <i class="fas fa-tools"></i>
+                                                    </div>
+                                                    <div class="topic-text">
+                                                        <span class="topic-title" data-i18n="contacts.form.topics.maintenance.title">Техническое обслуживание</span>
+                                                        <span class="topic-description" data-i18n="contacts.form.topics.maintenance.desc">Поддержка и обновление проектов</span>
+                                                    </div>
+                                                </div>
+                                                <div class="topic-option" data-value="migration">
+                                                    <div class="topic-icon">
+                                                        <i class="fas fa-exchange-alt"></i>
+                                                    </div>
+                                                    <div class="topic-text">
+                                                        <span class="topic-title" data-i18n="contacts.form.topics.migration.title">Миграция систем</span>
+                                                        <span class="topic-description" data-i18n="contacts.form.topics.migration.desc">Перенос данных и приложений</span>
+                                                    </div>
+                                                </div>
+                                                <div class="topic-option" data-value="testing">
+                                                    <div class="topic-icon">
+                                                        <i class="fas fa-bug"></i>
+                                                    </div>
+                                                    <div class="topic-text">
+                                                        <span class="topic-title" data-i18n="contacts.form.topics.testing.title">Тестирование и отладка</span>
+                                                        <span class="topic-description" data-i18n="contacts.form.topics.testing.desc">Поиск и исправление ошибок</span>
+                                                    </div>
+                                                </div>
+                                                <div class="topic-option" data-value="documentation">
+                                                    <div class="topic-icon">
+                                                        <i class="fas fa-book"></i>
+                                                    </div>
+                                                    <div class="topic-text">
+                                                        <span class="topic-title" data-i18n="contacts.form.topics.documentation.title">Техническая документация</span>
+                                                        <span class="topic-description" data-i18n="contacts.form.topics.documentation.desc">Создание руководств и спецификаций</span>
+                                                    </div>
+                                                </div>
+                                                <div class="topic-option" data-value="training">
+                                                    <div class="topic-icon">
+                                                        <i class="fas fa-graduation-cap"></i>
+                                                    </div>
+                                                    <div class="topic-text">
+                                                        <span class="topic-title" data-i18n="contacts.form.topics.training.title">Обучение и менторство</span>
+                                                        <span class="topic-description" data-i18n="contacts.form.topics.training.desc">Курсы и консультации по разработке</span>
+                                                    </div>
+                                                </div>
+                                                <div class="topic-option" data-value="other">
+                                                    <div class="topic-icon">
+                                                        <i class="fas fa-question"></i>
+                                                    </div>
+                                                    <div class="topic-text">
+                                                        <span class="topic-title" data-i18n="contacts.form.topics.other.title">Другое</span>
+                                                        <span class="topic-description" data-i18n="contacts.form.topics.other.desc">Индивидуальный запрос</span>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <input type="hidden" id="subject-input" name="subject" value="">
+                                    </div>
+                                </div>
+
+                                <div class="chat-message user-message">
+                                    <div class="message-avatar">
+                                        <i class="fas fa-comment"></i>
+                                    </div>
+                                    <div class="message-content">
+                                        <div class="message-label" data-i18n="contacts.form.fields.message">Расскажите о проекте</div>
+                                        <textarea id="message" name="message" data-i18n="contacts.form.placeholders.message" placeholder="Опишите вашу идею, требования или вопрос..." required class="message-input message-textarea"></textarea>
+                                        <div class="textarea-footer">
+                                            <span class="char-count">0 / 500</span>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="chat-actions">
+                                    <button type="submit" class="send-button">
+                                        <span class="button-text" data-i18n="contacts.form.button">Отправить сообщение</span>
+                                        <div class="button-icon">
+                                            <i class="fas fa-paper-plane"></i>
+                                        </div>
+                                    </button>
+                                    <div class="form-security">
+                                        <div class="security-icon">
+                                            <i class="fas fa-shield-alt"></i>
+                                        </div>
+                                        <div class="security-text">
+                                            <span class="security-title" data-i18n="contacts.form.security.title">Конфиденциальность гарантирована</span>
+                                            <span class="security-subtitle" data-i18n="contacts.form.security.subtitle">Ваши данные защищены</span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+    </main>
+
+    <div id="footer-placeholder"></div>
+
+    <script src="js/script.js"></script>
+    <script src="js/pages/contacts.js"></script>
+</body>
+
+</html>

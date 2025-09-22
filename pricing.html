@@ -1,0 +1,520 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Цены - Консультации по программированию</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="css/pages/pricing.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+
+<body>
+    <div id="header-placeholder"></div>
+
+    <!-- Основной контент -->
+    <main>
+        <!-- Герой цен -->
+        <section class="pricing-hero">
+            <div class="container">
+                <h1 data-i18n="pricing.hero.title">Прозрачные цены</h1>
+                <p class="hero-subtitle" data-i18n="pricing.hero.subtitle">Честные расценки без скрытых платежей. Качество превыше всего.</p>
+            </div>
+        </section>
+
+        <!-- Основные пакеты -->
+        <section class="pricing-packages">
+            <div class="container">
+                <h2 data-i18n="pricing.packages.title">Выберите подходящий пакет</h2>
+                <div class="packages-grid">
+                    <!-- Стандартный пакет -->
+                    <div class="package-card">
+                        <div class="package-header">
+                            <h3 data-i18n="pricing.packages.standard.name">Стандарт</h3>
+                            <div class="price">
+                                <span class="amount">От 15 000 ₽</span>
+                                <span class="period" data-i18n="pricing.packages.standard.period">за проект</span>
+                            </div>
+                        </div>
+                        <div class="package-features">
+                            <div class="feature">
+                                <i class="fas fa-check"></i>
+                                <span data-i18n="pricing.packages.standard.features.web">Веб-приложения</span>
+                            </div>
+                            <div class="feature">
+                                <i class="fas fa-check"></i>
+                                <span data-i18n="pricing.packages.standard.features.database">Базы данных</span>
+                            </div>
+                            <div class="feature">
+                                <i class="fas fa-check"></i>
+                                <span data-i18n="pricing.packages.standard.features.docs">Техническая документация</span>
+                            </div>
+                            <div class="feature">
+                                <i class="fas fa-check"></i>
+                                <span data-i18n="pricing.packages.standard.features.support">Поддержка 1 месяц</span>
+                            </div>
+                        </div>
+                        <a href="contacts.html" class="package-button" data-i18n="pricing.packages.buttons.select">Выбрать пакет</a>
+                    </div>
+
+                    <!-- Премиум пакет -->
+                    <div class="package-card package-popular">
+                        <div class="popular-badge" data-i18n="pricing.packages.premium.badge">Популярный</div>
+                        <div class="package-header">
+                            <h3 data-i18n="pricing.packages.premium.name">Премиум</h3>
+                            <div class="price">
+                                <span class="amount">От 25 000 ₽</span>
+                                <span class="period" data-i18n="pricing.packages.premium.period">за проект</span>
+                            </div>
+                        </div>
+                        <div class="package-features">
+                            <div class="feature">
+                                <i class="fas fa-check"></i>
+                                <span data-i18n="pricing.packages.premium.features.mobile">Мобильные приложения</span>
+                            </div>
+                            <div class="feature">
+                                <i class="fas fa-check"></i>
+                                <span data-i18n="pricing.packages.premium.features.complex">Комплексные системы</span>
+                            </div>
+                            <div class="feature">
+                                <i class="fas fa-check"></i>
+                                <span data-i18n="pricing.packages.premium.features.design">UI/UX дизайн</span>
+                            </div>
+                            <div class="feature">
+                                <i class="fas fa-check"></i>
+                                <span data-i18n="pricing.packages.premium.features.support">Поддержка 3 месяца</span>
+                            </div>
+                            <div class="feature">
+                                <i class="fas fa-check"></i>
+                                <span data-i18n="pricing.packages.premium.features.priority">Приоритетная связь</span>
+                            </div>
+                        </div>
+                        <a href="contacts.html" class="package-button" data-i18n="pricing.packages.buttons.select">Выбрать пакет</a>
+                    </div>
+
+                    <!-- Индивидуальный -->
+                    <div class="package-card">
+                        <div class="package-header">
+                            <h3 data-i18n="pricing.packages.custom.name">Индивидуальный</h3>
+                            <div class="price">
+                                <span class="amount" data-i18n="pricing.packages.custom.price">Договорная</span>
+                                <span class="period" data-i18n="pricing.packages.custom.period">цена</span>
+                            </div>
+                        </div>
+                        <div class="package-features">
+                            <div class="feature">
+                                <i class="fas fa-check"></i>
+                                <span data-i18n="pricing.packages.custom.features.unique">Уникальные проекты</span>
+                            </div>
+                            <div class="feature">
+                                <i class="fas fa-check"></i>
+                                <span data-i18n="pricing.packages.custom.features.fullcycle">Полный цикл разработки</span>
+                            </div>
+                            <div class="feature">
+                                <i class="fas fa-check"></i>
+                                <span data-i18n="pricing.packages.custom.features.manager">Персональный менеджер</span>
+                            </div>
+                            <div class="feature">
+                                <i class="fas fa-check"></i>
+                                <span data-i18n="pricing.packages.custom.features.extended">Расширенная поддержка</span>
+                            </div>
+                        </div>
+                        <a href="contacts.html" class="package-button" data-i18n="pricing.packages.custom.button">Обсудить проект</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Детальные цены -->
+        <section class="detailed-pricing">
+            <div class="container">
+                <h2 data-i18n="pricing.detailed.title">Детальная цена</h2>
+                <p class="section-subtitle" data-i18n="pricing.detailed.subtitle">Подробная информация о стоимости услуг</p>
+
+                <div class="pricing-showcase">
+                    <!-- Веб-разработка -->
+                    <div class="service-showcase-card">
+                        <div class="showcase-header">
+                            <div class="service-icon-large">
+                                <i class="fas fa-globe"></i>
+                            </div>
+                            <h3 data-i18n="pricing.detailed.categories.web.title">Веб-разработка</h3>
+                            <p class="service-description">Создание современных веб-приложений и сайтов</p>
+                        </div>
+
+                        <div class="pricing-grid">
+                            <div class="pricing-card pricing-card-premium">
+                                <div class="card-header">
+                                    <h4 data-i18n="pricing.detailed.categories.web.items.landing">Лендинг страница</h4>
+                                    <div class="price-tag">
+                                        <span class="price-amount">8 000 ₽</span>
+                                        <span class="price-prefix" data-i18n="pricing.detailed.prices.from">От</span>
+                                    </div>
+                                </div>
+                                <div class="card-features">
+                                    <span class="feature-item">• Адаптивный дизайн</span>
+                                    <span class="feature-item">• Форма обратной связи</span>
+                                    <span class="feature-item">• SEO оптимизация</span>
+                                </div>
+                                <div class="card-duration">
+                                    <i class="fas fa-clock"></i>
+                                    <span>3-5 дней</span>
+                                </div>
+                            </div>
+
+                            <div class="pricing-card pricing-card-premium">
+                                <div class="card-header">
+                                    <h4 data-i18n="pricing.detailed.categories.web.items.corporate">Корпоративный сайт</h4>
+                                    <div class="price-tag">
+                                        <span class="price-amount">15 000 ₽</span>
+                                        <span class="price-prefix" data-i18n="pricing.detailed.prices.from">От</span>
+                                    </div>
+                                </div>
+                                <div class="card-features">
+                                    <span class="feature-item">• До 10 страниц</span>
+                                    <span class="feature-item">• Админ-панель</span>
+                                    <span class="feature-item">• Система управления контентом</span>
+                                </div>
+                                <div class="card-duration">
+                                    <i class="fas fa-clock"></i>
+                                    <span>7-10 дней</span>
+                                </div>
+                            </div>
+
+                            <div class="pricing-card pricing-card-premium">
+                                <div class="card-header">
+                                    <h4 data-i18n="pricing.detailed.categories.web.items.commerce">Интернет-магазин</h4>
+                                    <div class="price-tag">
+                                        <span class="price-amount">25 000 ₽</span>
+                                        <span class="price-prefix" data-i18n="pricing.detailed.prices.from">От</span>
+                                    </div>
+                                </div>
+                                <div class="card-features">
+                                    <span class="feature-item">• Каталог товаров</span>
+                                    <span class="feature-item">• Корзина и оплата</span>
+                                    <span class="feature-item">• Система заказов</span>
+                                </div>
+                                <div class="card-duration">
+                                    <i class="fas fa-clock"></i>
+                                    <span>14-20 дней</span>
+                                </div>
+                            </div>
+
+
+                        </div>
+                    </div>
+
+                    <!-- Автоматизация -->
+                    <div class="service-showcase-card">
+                        <div class="showcase-header">
+                            <div class="service-icon-large">
+                                <i class="fas fa-robot"></i>
+                            </div>
+                            <h3 data-i18n="pricing.detailed.categories.automation.title">Автоматизация</h3>
+                            <p class="service-description">Боты и системы автоматизации бизнес-процессов</p>
+                        </div>
+
+                        <div class="pricing-grid">
+                            <div class="pricing-card pricing-card-premium">
+                                <div class="card-header">
+                                    <h4 data-i18n="pricing.detailed.categories.automation.items.simplebot">Простой бот</h4>
+                                    <div class="price-tag">
+                                        <span class="price-amount">5 000 ₽</span>
+                                        <span class="price-prefix" data-i18n="pricing.detailed.prices.from">От</span>
+                                    </div>
+                                </div>
+                                <div class="card-features">
+                                    <span class="feature-item">• Telegram/VK бот</span>
+                                    <span class="feature-item">• Базовые команды</span>
+                                    <span class="feature-item">• Уведомления</span>
+                                </div>
+                                <div class="card-duration">
+                                    <i class="fas fa-clock"></i>
+                                    <span>2-3 дня</span>
+                                </div>
+                            </div>
+
+                            <div class="pricing-card pricing-card-premium">
+                                <div class="card-header">
+                                    <h4 data-i18n="pricing.detailed.categories.automation.items.automation">Автоматизация</h4>
+                                    <div class="price-tag">
+                                        <span class="price-amount">10 000 ₽</span>
+                                        <span class="price-prefix" data-i18n="pricing.detailed.prices.from">От</span>
+                                    </div>
+                                </div>
+                                <div class="card-features">
+                                    <span class="feature-item">• Скрипты автоматизации</span>
+                                    <span class="feature-item">• Парсинг данных</span>
+                                    <span class="feature-item">• Отчеты</span>
+                                </div>
+                                <div class="card-duration">
+                                    <i class="fas fa-clock"></i>
+                                    <span>5-7 дней</span>
+                                </div>
+                            </div>
+
+                            <div class="pricing-card pricing-card-premium">
+                                <div class="card-header">
+                                    <h4 data-i18n="pricing.detailed.categories.automation.items.api">Интеграция API</h4>
+                                    <div class="price-tag">
+                                        <span class="price-amount">8 000 ₽</span>
+                                        <span class="price-prefix" data-i18n="pricing.detailed.prices.from">От</span>
+                                    </div>
+                                </div>
+                                <div class="card-features">
+                                    <span class="feature-item">• Подключение API</span>
+                                    <span class="feature-item">• Синхронизация данных</span>
+                                    <span class="feature-item">• Обработка ошибок</span>
+                                </div>
+                                <div class="card-duration">
+                                    <i class="fas fa-clock"></i>
+                                    <span>3-5 дней</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Консультации -->
+                    <div class="service-showcase-card">
+                        <div class="showcase-header">
+                            <div class="service-icon-large">
+                                <i class="fas fa-lightbulb"></i>
+                            </div>
+                            <h3 data-i18n="pricing.detailed.categories.consulting.title">Консультации</h3>
+                            <p class="service-description">Техническое консультирование и анализ проектов</p>
+                        </div>
+
+                        <div class="pricing-grid">
+                            <div class="pricing-card pricing-card-premium">
+                                <div class="card-header">
+                                    <h4 data-i18n="pricing.detailed.categories.consulting.items.tech">Тех. консультация</h4>
+                                    <div class="price-tag">
+                                        <span class="price-amount">2 000 ₽</span>
+                                        <span class="price-prefix" data-i18n="pricing.detailed.prices.from">От</span>
+                                    </div>
+                                </div>
+                                <div class="card-features">
+                                    <span class="feature-item">• Анализ требований</span>
+                                    <span class="feature-item">• Выбор технологий</span>
+                                    <span class="feature-item">• План разработки</span>
+                                </div>
+                                <div class="card-duration">
+                                    <i class="fas fa-clock"></i>
+                                    <span>1 час</span>
+                                </div>
+                            </div>
+
+                            <div class="pricing-card pricing-card-premium">
+                                <div class="card-header">
+                                    <h4 data-i18n="pricing.detailed.categories.consulting.items.analysis">Анализ проекта</h4>
+                                    <div class="price-tag">
+                                        <span class="price-amount">5 000 ₽</span>
+                                        <span class="price-prefix" data-i18n="pricing.detailed.prices.from">От</span>
+                                    </div>
+                                </div>
+                                <div class="card-features">
+                                    <span class="feature-item">• Детальный анализ</span>
+                                    <span class="feature-item">• Техническое задание</span>
+                                    <span class="feature-item">• Оценка стоимости</span>
+                                </div>
+                                <div class="card-duration">
+                                    <i class="fas fa-clock"></i>
+                                    <span>2-3 часа</span>
+                                </div>
+                            </div>
+
+                            <div class="pricing-card pricing-card-premium">
+                                <div class="card-header">
+                                    <h4 data-i18n="pricing.detailed.categories.consulting.items.design">Проектирование</h4>
+                                    <div class="price-tag">
+                                        <span class="price-amount">10 000 ₽</span>
+                                        <span class="price-prefix" data-i18n="pricing.detailed.prices.from">От</span>
+                                    </div>
+                                </div>
+                                <div class="card-features">
+                                    <span class="feature-item">• Архитектура системы</span>
+                                    <span class="feature-item">• Диаграммы и схемы</span>
+                                    <span class="feature-item">• Технологический стек</span>
+                                </div>
+                                <div class="card-duration">
+                                    <i class="fas fa-clock"></i>
+                                    <span>4-6 часов</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Призыв к обсуждению -->
+                <div class="pricing-cta-banner">
+                    <div class="cta-banner-content">
+                        <h3>Нужна индивидуальная оценка?</h3>
+                        <p>Получите персональное коммерческое предложение с точным расчетом стоимости вашего проекта</p>
+                        <a href="contacts.html" class="cta-button-primary">
+                            <i class="fas fa-calculator"></i>
+                            Рассчитать стоимость
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- FAQ секция -->
+        <section class="pricing-faq">
+            <div class="container">
+                <h2 data-i18n="pricing.faq.title">Часто задаваемые вопросы</h2>
+                <p class="faq-subtitle" data-i18n="pricing.faq.subtitle">Ответы на самые популярные вопросы о ценах и условиях сотрудничества</p>
+
+                <div class="faq-accordion">
+                    <div class="faq-item">
+                        <div class="faq-question" data-faq="1">
+                            <div class="question-content">
+                                <div class="question-icon">
+                                    <i class="fas fa-calculator"></i>
+                                </div>
+                                <span data-i18n="pricing.faq.questions.1">Как формируется стоимость проекта?</span>
+                            </div>
+                            <div class="question-toggle">
+                                <i class="fas fa-chevron-down"></i>
+                            </div>
+                        </div>
+                        <div class="faq-answer" id="faq-1">
+                            <div class="answer-content">
+                                <p data-i18n="pricing.faq.answers.1.intro">Стоимость проекта рассчитывается индивидуально и зависит от нескольких факторов:</p>
+                                <ul>
+                                    <li><strong data-i18n="pricing.faq.answers.1.factors.complexity.title">Сложность проекта:</strong> <span data-i18n="pricing.faq.answers.1.factors.complexity.desc">объем функционала и технические требования</span></li>
+                                    <li><strong data-i18n="pricing.faq.answers.1.factors.deadlines.title">Сроки выполнения:</strong> <span data-i18n="pricing.faq.answers.1.factors.deadlines.desc">срочные проекты имеют повышенный коэффициент</span></li>
+                                    <li><strong data-i18n="pricing.faq.answers.1.factors.volume.title">Объем работ:</strong> <span data-i18n="pricing.faq.answers.1.factors.volume.desc">количество страниц, функций, интеграций</span></li>
+                                    <li><strong data-i18n="pricing.faq.answers.1.factors.tech.title">Технологии:</strong> <span data-i18n="pricing.faq.answers.1.factors.tech.desc">некоторые решения требуют дополнительных затрат</span></li>
+                                </ul>
+                                <p data-i18n="pricing.faq.answers.1.conclusion">После анализа ваших требований я предоставлю подробную смету с прозрачным расчетом стоимости.</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="faq-item">
+                        <div class="faq-question" data-faq="2">
+                            <div class="question-content">
+                                <div class="question-icon">
+                                    <i class="fas fa-percent"></i>
+                                </div>
+                                <span data-i18n="pricing.faq.questions.2">Предусмотрены ли скидки?</span>
+                            </div>
+                            <div class="question-toggle">
+                                <i class="fas fa-chevron-down"></i>
+                            </div>
+                        </div>
+                        <div class="faq-answer" id="faq-2">
+                            <div class="answer-content">
+                                <p data-i18n="pricing.faq.answers.2.intro">Да, я предоставляю гибкую систему скидок:</p>
+                                <ul>
+                                    <li><strong data-i18n="pricing.faq.answers.2.discounts.regular.title">Для постоянных клиентов:</strong> <span data-i18n="pricing.faq.answers.2.discounts.regular.desc">скидка до 15% на последующие проекты</span></li>
+                                    <li><strong data-i18n="pricing.faq.answers.2.discounts.complex.title">Комплексные проекты:</strong> <span data-i18n="pricing.faq.answers.2.discounts.complex.desc">скидка 10% при заказе нескольких услуг</span></li>
+                                    <li><strong data-i18n="pricing.faq.answers.2.discounts.referral.title">Рекомендации:</strong> <span data-i18n="pricing.faq.answers.2.discounts.referral.desc">скидка 5% за каждого приведенного клиента</span></li>
+                                    <li><strong data-i18n="pricing.faq.answers.2.discounts.prepay.title">Предоплата:</strong> <span data-i18n="pricing.faq.answers.2.discounts.prepay.desc">скидка 5% при полной предоплате проекта</span></li>
+                                </ul>
+                                <p data-i18n="pricing.faq.answers.2.conclusion">Все скидки обсуждаются индивидуально при заключении договора.</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="faq-item">
+                        <div class="faq-question" data-faq="3">
+                            <div class="question-content">
+                                <div class="question-icon">
+                                    <i class="fas fa-credit-card"></i>
+                                </div>
+                                <span data-i18n="pricing.faq.questions.3">Какие способы оплаты?</span>
+                            </div>
+                            <div class="question-toggle">
+                                <i class="fas fa-chevron-down"></i>
+                            </div>
+                        </div>
+                        <div class="faq-answer" id="faq-3">
+                            <div class="answer-content">
+                                <p data-i18n="pricing.faq.answers.3.intro">Я предлагаю удобные и безопасные способы оплаты:</p>
+                                <ul>
+                                    <li><strong data-i18n="pricing.faq.answers.3.methods.card.title">Банковская карта:</strong> <span data-i18n="pricing.faq.answers.3.methods.card.desc">Visa, MasterCard, Мир через защищенные платежные системы</span></li>
+                                    <li><strong data-i18n="pricing.faq.answers.3.methods.yoomoney.title">ЮMoney (Яндекс.Деньги):</strong> <span data-i18n="pricing.faq.answers.3.methods.yoomoney.desc">быстрый и удобный перевод</span></li>
+                                    <li><strong data-i18n="pricing.faq.answers.3.methods.transfer.title">Банковский перевод:</strong> <span data-i18n="pricing.faq.answers.3.methods.transfer.desc">для организаций и крупных проектов</span></li>
+                                    <li><strong data-i18n="pricing.faq.answers.3.methods.crypto.title">Криптовалюта:</strong> <span data-i18n="pricing.faq.answers.3.methods.crypto.desc">Bitcoin, Ethereum (по договоренности)</span></li>
+                                </ul>
+                                <p data-i18n="pricing.faq.answers.3.conclusion">Все платежи защищены и соответствуют требованиям безопасности.</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="faq-item">
+                        <div class="faq-question" data-faq="4">
+                            <div class="question-content">
+                                <div class="question-icon">
+                                    <i class="fas fa-clock"></i>
+                                </div>
+                                <span data-i18n="pricing.faq.questions.4">Можно ли оплатить поэтапно?</span>
+                            </div>
+                            <div class="question-toggle">
+                                <i class="fas fa-chevron-down"></i>
+                            </div>
+                        </div>
+                        <div class="faq-answer" id="faq-4">
+                            <div class="answer-content">
+                                <p data-i18n="pricing.faq.answers.4.intro">Да, поэтапная оплата - это стандартная практика для моих проектов:</p>
+                                <ul>
+                                    <li><strong data-i18n="pricing.faq.answers.4.stages.advance.title">Аванс 30-50%:</strong> <span data-i18n="pricing.faq.answers.4.stages.advance.desc">в начале работ после согласования ТЗ</span></li>
+                                    <li><strong data-i18n="pricing.faq.answers.4.stages.intermediate.title">Промежуточные платежи:</strong> <span data-i18n="pricing.faq.answers.4.stages.intermediate.desc">по завершении ключевых этапов</span></li>
+                                    <li><strong data-i18n="pricing.faq.answers.4.stages.final.title">Финальный платеж:</strong> <span data-i18n="pricing.faq.answers.4.stages.final.desc">после сдачи проекта и тестирования</span></li>
+                                </ul>
+                                <p data-i18n="pricing.faq.answers.4.conclusion">График платежей фиксируется в договоре и зависит от сложности и сроков проекта.</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="faq-item">
+                        <div class="faq-question" data-faq="5">
+                            <div class="question-content">
+                                <div class="question-icon">
+                                    <i class="fas fa-file-contract"></i>
+                                </div>
+                                <span data-i18n="pricing.faq.questions.5">Нужен ли договор?</span>
+                            </div>
+                            <div class="question-toggle">
+                                <i class="fas fa-chevron-down"></i>
+                            </div>
+                        </div>
+                        <div class="faq-answer" id="faq-5">
+                            <div class="answer-content">
+                                <p data-i18n="pricing.faq.answers.5.intro">Да, для всех проектов заключается официальный договор, который включает:</p>
+                                <ul>
+                                    <li><strong data-i18n="pricing.faq.answers.5.contract.subject.title">Предмет договора:</strong> <span data-i18n="pricing.faq.answers.5.contract.subject.desc">подробное описание работ и результатов</span></li>
+                                    <li><strong data-i18n="pricing.faq.answers.5.contract.deadlines.title">Сроки выполнения:</strong> <span data-i18n="pricing.faq.answers.5.contract.deadlines.desc">конкретные дедлайны по этапам</span></li>
+                                    <li><strong data-i18n="pricing.faq.answers.5.contract.cost.title">Стоимость и условия оплаты:</strong> <span data-i18n="pricing.faq.answers.5.contract.cost.desc">полная смета и график платежей</span></li>
+                                    <li><strong data-i18n="pricing.faq.answers.5.contract.rights.title">Права и обязанности сторон:</strong> <span data-i18n="pricing.faq.answers.5.contract.rights.desc">ответственность и гарантии</span></li>
+                                    <li><strong data-i18n="pricing.faq.answers.5.contract.confidentiality.title">Конфиденциальность:</strong> <span data-i18n="pricing.faq.answers.5.contract.confidentiality.desc">защита коммерческой тайны</span></li>
+                                </ul>
+                                <p data-i18n="pricing.faq.answers.5.conclusion">Договор защищает интересы обеих сторон и обеспечивает прозрачность сотрудничества.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Призыв к действию -->
+        <section class="final-cta">
+            <div class="container">
+                <h2 data-i18n="pricing.cta.title">Готовы начать свой проект?</h2>
+                <p data-i18n="pricing.cta.subtitle">Получите бесплатную консультацию и начните создавать что-то amazing</p>
+                <div class="cta-buttons">
+                    <a href="contacts.html" class="cta-button-primary" data-i18n="pricing.cta.buttons.contact">Связаться со мной</a>
+                    <a href="services.html" class="cta-button-secondary" data-i18n="pricing.cta.buttons.services">Посмотреть услуги</a>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <div id="footer-placeholder"></div>
+</body>
+<script src="js/script.js"></script>
+<script src="js/pages/pricing.js"></script>
+</html>

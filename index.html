@@ -1,0 +1,348 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Главная - Консультации по программированию</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="css/pages/index.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body>
+    <div id="header-placeholder"></div>
+
+    <!-- Основной контент -->
+    <main>
+        <!-- Герой -->
+        <section class="hero">
+            <div class="container">
+                <div class="hero-content">
+                    <h1 data-i18n="home.hero.title">Трансформирую идеи в <span class="highlight">цифровые решения</span></h1>
+                    <p class="hero-subtitle" data-i18n="home.hero.subtitle">Профессиональная разработка программного обеспечения для бизнеса любого масштаба</p>
+                    <div class="hero-stats">
+                        <div class="stat">
+                            <span class="stat-number">50+</span>
+                            <span class="stat-label">Проектов</span>
+                        </div>
+                        <div class="stat">
+                            <span class="stat-number">3+</span>
+                            <span class="stat-label">Лет опыта</span>
+                        </div>
+                        <div class="stat">
+                            <span class="stat-number">100%</span>
+                            <span class="stat-label">Удовлетворенность</span>
+                        </div>
+                    </div>
+                    <div class="hero-buttons">
+                        <a href="contacts.html" class="cta-button-primary">Начать проект</a>
+                        <a href="services.html" class="cta-button-secondary">Посмотреть услуги</a>
+                    </div>
+                </div>
+                <div class="hero-visual">
+                    <div class="code-window">
+                        <div class="code-header">
+                            <div class="code-dots">
+                                <span class="dot red"></span>
+                                <span class="dot yellow"></span>
+                                <span class="dot green"></span>
+                            </div>
+                            <div class="code-title">solution.js</div>
+                        </div>
+                        <div class="code-content">
+                            <div class="code-line">
+                                <span class="keyword">function</span><span class="function-name">createSolution</span><span class="punctuation">() {</span>
+                            </div>
+                            <div class="code-line indent">
+                                <span class="keyword">const</span><span class="variable">idea</span><span class="operator">=</span><span class="string">"your vision"</span><span class="punctuation">;</span>
+                            </div>
+                            <div class="code-line indent">
+                                <span class="keyword">const</span><span class="variable">result</span><span class="operator">=</span><span class="function-call">develop</span><span class="punctuation">(</span><span class="variable">idea</span><span class="punctuation">);</span>
+                            </div>
+                            <div class="code-line indent">
+                                <span class="keyword">return</span><span class="value">success</span><span class="punctuation">;</span>
+                            </div>
+                            <div class="code-line">
+                                <span class="punctuation">}</span>
+                            </div>
+                            <div class="cursor"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <canvas id="quantum-particles"></canvas>
+        </section>
+
+        <!-- Услуги -->
+        <section class="services-preview">
+            <div class="container">
+                <h2 data-i18n="home.services.title">Мои услуги</h2>
+                <p class="section-subtitle" data-i18n="home.services.subtitle">Полный спектр услуг по разработке программного обеспечения</p>
+                <div class="services-grid">
+                    <div class="service-preview-card">
+                        <div class="service-icon">
+                            <i class="fas fa-globe"></i>
+                        </div>
+                        <h3 data-i18n="home.services.items.webDev.title">Веб-разработка</h3>
+                        <p data-i18n="home.services.items.webDev.desc">Современные веб-приложения и сайты</p>
+                        <a href="services.html" class="service-link" data-i18n="home.services.link">Подробнее →</a>
+                    </div>
+                    <div class="service-preview-card">
+                        <div class="service-icon">
+                            <i class="fas fa-mobile-alt"></i>
+                        </div>
+                        <h3 data-i18n="home.services.items.mobileDev.title">Мобильная разработка</h3>
+                        <p data-i18n="home.services.items.mobileDev.desc">Приложения для iOS и Android</p>
+                        <a href="services.html" class="service-link" data-i18n="home.services.link">Подробнее →</a>
+                    </div>
+                    <div class="service-preview-card">
+                        <div class="service-icon">
+                            <i class="fas fa-robot"></i>
+                        </div>
+                        <h3 data-i18n="home.services.items.automation.title">Автоматизация</h3>
+                        <p data-i18n="home.services.items.automation.desc">Боты и системы автоматизации</p>
+                        <a href="services.html" class="service-link" data-i18n="home.services.link">Подробнее →</a>
+                    </div>
+                    <div class="service-preview-card">
+                        <div class="service-icon">
+                            <i class="fas fa-database"></i>
+                        </div>
+                        <h3 data-i18n="home.services.items.databases.title">Базы данных</h3>
+                        <p data-i18n="home.services.items.databases.desc">Проектирование и оптимизация БД</p>
+                        <a href="services.html" class="service-link" data-i18n="home.services.link">Подробнее →</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Почему выбирают меня -->
+        <section class="why-choose">
+            <div class="container">
+                        <h2 data-i18n="home.features.title">Почему выбирают меня</h2>
+                <div class="features-grid">
+                    <div class="feature-card">
+                        <div class="feature-icon">
+                            <i class="fas fa-lightbulb"></i>
+                        </div>
+                        <h3 data-i18n="home.features.items.approach.title">Индивидуальный подход</h3>
+                        <p data-i18n="home.features.items.approach.desc">Каждый проект рассматриваю как уникальный, адаптируя решения под ваши конкретные потребности</p>
+                    </div>
+                    <div class="feature-card">
+                        <div class="feature-icon">
+                            <i class="fas fa-clock"></i>
+                        </div>
+                        <h3 data-i18n="home.features.items.deadlines.title">Соблюдение сроков</h3>
+                        <p data-i18n="home.features.items.deadlines.desc">Реалистичные дедлайны и регулярные отчеты о прогрессе работы</p>
+                    </div>
+                    <div class="feature-card">
+                        <div class="feature-icon">
+                            <i class="fas fa-shield-alt"></i>
+                        </div>
+                        <h3 data-i18n="home.features.items.quality.title">Качество кода</h3>
+                        <p data-i18n="home.features.items.quality.desc">Чистый, документированный и оптимизированный код по современным стандартам</p>
+                    </div>
+                    <div class="feature-card">
+                        <div class="feature-icon">
+                            <i class="fas fa-headset"></i>
+                        </div>
+                        <h3 data-i18n="home.features.items.support.title">Поддержка</h3>
+                        <p data-i18n="home.features.items.support.desc">Техническая поддержка и сопровождение проектов после сдачи</p>
+                    </div>
+                    <div class="feature-card">
+                        <div class="feature-icon">
+                            <i class="fas fa-lock"></i>
+                        </div>
+                        <h3 data-i18n="home.features.items.confidentiality.title">Конфиденциальность</h3>
+                        <p data-i18n="home.features.items.confidentiality.desc">Полная защита вашей интеллектуальной собственности и коммерческой тайны</p>
+                    </div>
+                    <div class="feature-card">
+                        <div class="feature-icon">
+                            <i class="fas fa-handshake"></i>
+                        </div>
+                        <h3 data-i18n="home.features.items.transparency.title">Прозрачность</h3>
+                        <p data-i18n="home.features.items.transparency.desc">Открытое общение и понятные условия сотрудничества на всех этапах</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Обо мне -->
+        <section class="about-section">
+            <div class="container">
+                <div class="about-content">
+                    <div class="about-text">
+                        <h2 data-i18n="home.about.title">Обо мне</h2>
+                        <p data-i18n="home.about.content.0">Привет! Я Владислав, профессиональный разработчик программного обеспечения с более чем 3-летним опытом создания цифровых решений.</p>
+                        <p data-i18n="home.about.content.1">За время работы я успешно реализовал более 50 проектов различной сложности: от простых веб-приложений до комплексных систем автоматизации бизнес-процессов.</p>
+                        <p data-i18n="home.about.content.2">Моя цель — помочь вашему бизнесу расти и развиваться с помощью современных технологий. Я предлагаю полный цикл разработки: от анализа требований до поддержки готового продукта.</p>
+                        <div class="skills-preview">
+                            <span class="skill-tag" data-i18n="home.about.skills.0">Python</span>
+                            <span class="skill-tag" data-i18n="home.about.skills.1">JavaScript</span>
+                            <span class="skill-tag" data-i18n="home.about.skills.2">React</span>
+                            <span class="skill-tag" data-i18n="home.about.skills.3">Node.js</span>
+                            <span class="skill-tag" data-i18n="home.about.skills.4">PostgreSQL</span>
+                            <span class="skill-tag" data-i18n="home.about.skills.5">Docker</span>
+                        </div>
+                    </div>
+                    <div class="about-image">
+                        <img src="images/about-me.png" alt="Фото программиста" />
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Портфолио -->
+        <section class="portfolio-preview">
+            <div class="container">
+                <h2 data-i18n="home.portfolio.title">Мои проекты</h2>
+                <p class="section-subtitle" data-i18n="home.portfolio.subtitle">Примеры реализованных проектов различной сложности</p>
+                <div class="portfolio-grid">
+                    <div class="portfolio-item">
+                        <div class="portfolio-image">
+                            <i class="fas fa-globe"></i>
+                        </div>
+                        <div class="portfolio-content">
+                            <h3 data-i18n="home.portfolio.items.ecommerce.title">Интернет-магазин</h3>
+                            <p data-i18n="home.portfolio.items.ecommerce.desc">Полнофункциональный e-commerce сайт с каталогом товаров, корзиной и системой оплаты</p>
+                            <div class="project-tech">
+                                <span class="tech-tag">React</span>
+                                <span class="tech-tag">Node.js</span>
+                                <span class="tech-tag">PostgreSQL</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="portfolio-item">
+                        <div class="portfolio-image">
+                            <i class="fas fa-robot"></i>
+                        </div>
+                        <div class="portfolio-content">
+                            <h3 data-i18n="home.portfolio.items.telegramBot.title">Telegram бот</h3>
+                            <p data-i18n="home.portfolio.items.telegramBot.desc">Автоматизированная система обработки заказов с интеграцией платежей и уведомлений</p>
+                            <div class="project-tech">
+                                <span class="tech-tag">Python</span>
+                                <span class="tech-tag">Telegram API</span>
+                                <span class="tech-tag">SQLite</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="portfolio-item">
+                        <div class="portfolio-image">
+                            <i class="fas fa-mobile-alt"></i>
+                        </div>
+                        <div class="portfolio-content">
+                            <h3 data-i18n="home.portfolio.items.mobileApp.title">Мобильное приложение</h3>
+                            <p data-i18n="home.portfolio.items.mobileApp.desc">Кроссплатформенное приложение для управления задачами с синхронизацией данных</p>
+                            <div class="project-tech">
+                                <span class="tech-tag">React Native</span>
+                                <span class="tech-tag">Firebase</span>
+                                <span class="tech-tag">Redux</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="portfolio-item">
+                        <div class="portfolio-image">
+                            <i class="fas fa-chart-line"></i>
+                        </div>
+                        <div class="portfolio-content">
+                            <h3 data-i18n="home.portfolio.items.analytics.title">Аналитическая система</h3>
+                            <p data-i18n="home.portfolio.items.analytics.desc">Веб-приложение для анализа данных с интерактивными графиками и отчетами</p>
+                            <div class="project-tech">
+                                <span class="tech-tag">Python</span>
+                                <span class="tech-tag">Django</span>
+                                <span class="tech-tag">Chart.js</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="portfolio-item">
+                        <div class="portfolio-image">
+                            <i class="fas fa-building"></i>
+                        </div>
+                        <div class="portfolio-content">
+                            <h3 data-i18n="home.portfolio.items.corporate.title">Корпоративный портал</h3>
+                            <p data-i18n="home.portfolio.items.corporate.desc">Внутренняя система управления документами и задачами для компании</p>
+                            <div class="project-tech">
+                                <span class="tech-tag">Vue.js</span>
+                                <span class="tech-tag">Laravel</span>
+                                <span class="tech-tag">MySQL</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="portfolio-item">
+                        <div class="portfolio-image">
+                            <i class="fas fa-gamepad"></i>
+                        </div>
+                        <div class="portfolio-content">
+                            <h3 data-i18n="home.portfolio.items.game.title">Игра на Python</h3>
+                            <p data-i18n="home.portfolio.items.game.desc">Интерактивная 2D игра с системой уровней и сохранением прогресса</p>
+                            <div class="project-tech">
+                                <span class="tech-tag">Python</span>
+                                <span class="tech-tag">Pygame</span>
+                                <span class="tech-tag">SQLite</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="portfolio-cta">
+                    <a href="services.html" class="cta-button-secondary" data-i18n="home.portfolio.cta">Посмотреть все услуги</a>
+                </div>
+            </div>
+        </section>
+
+        <!-- Отзывы -->
+        <section class="testimonials-preview">
+            <div class="container">
+                <h2 data-i18n="home.testimonials.title">Отзывы клиентов</h2>
+                <p class="section-subtitle" data-i18n="home.testimonials.subtitle">Реальные отзывы от довольных клиентов</p>
+                <div class="testimonials-grid">
+                    <div class="testimonial-card">
+                        <div class="testimonial-content">
+                            <p data-i18n="home.testimonials.items.0.text">"Отличная работа! Веб-приложение создано быстро и качественно. Рекомендую всем знакомым!"</p>
+                            <div class="testimonial-author">
+                                <span class="author-name" data-i18n="home.testimonials.items.0.author">Иван Иванов</span>
+                                <span class="author-source" data-i18n="home.testimonials.items.0.source">Авито</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="testimonial-card">
+                        <div class="testimonial-content">
+                            <p data-i18n="home.testimonials.items.1.text">"Программист профессионал своего дела! Работа выполнена качественно и в срок."</p>
+                            <div class="testimonial-author">
+                                <span class="author-name" data-i18n="home.testimonials.items.1.author">Мария Петрова</span>
+                                <span class="author-source" data-i18n="home.testimonials.items.1.source">Авито</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="testimonial-card">
+                        <div class="testimonial-content">
+                            <p data-i18n="home.testimonials.items.2.text">"Очень доволен сотрудничеством! Буду обращаться снова за новыми проектами."</p>
+                            <div class="testimonial-author">
+                                <span class="author-name" data-i18n="home.testimonials.items.2.author">Алексей Сидоров</span>
+                                <span class="author-source" data-i18n="home.testimonials.items.2.source">Авито</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="testimonials-cta">
+                    <a href="reviews.html" class="cta-button-secondary" data-i18n="home.testimonials.cta">Все отзывы</a>
+                </div>
+            </div>
+        </section>
+
+        <!-- Призыв к действию -->
+        <section class="final-cta">
+            <div class="container">
+                <h2 data-i18n="home.cta.title">Готовы начать свой проект?</h2>
+                <p data-i18n="home.cta.subtitle">Получите бесплатную консультацию и начните создавать что-то amazing</p>
+                <div class="cta-buttons">
+                    <a href="contacts.html" class="cta-button-primary" data-i18n="home.cta.buttons.contact">Связаться со мной</a>
+                    <a href="pricing.html" class="cta-button-secondary" data-i18n="home.cta.buttons.pricing">Посмотреть цены</a>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <div id="footer-placeholder"></div>
+</body>
+<script src="js/script.js"></script>
+<script src="js/pages/index.js"></script>
+</html>

@@ -1,0 +1,400 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Услуги - Консультации по программированию</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="css/pages/services.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+
+<body>
+    <div id="header-placeholder"></div>
+
+    <!-- Основной контент -->
+    <main>
+        <!-- Герой услуг -->
+        <section class="services-hero">
+            <div class="container">
+                <h1 data-i18n="services.hero.title">Профессиональные услуги</h1>
+                <p class="hero-subtitle" data-i18n="services.hero.subtitle">От идеи до реализации - полный цикл разработки программного обеспечения</p>
+            </div>
+        </section>
+
+        <!-- Категории услуг -->
+        <section class="services-categories">
+            <div class="container">
+                <h2 data-i18n="services.categories.title">Категории услуг</h2>
+                <p class="section-subtitle" data-i18n="services.categories.subtitle">Выберите подходящее направление для вашего проекта</p>
+
+                <div class="categories-interactive">
+                    <div class="category-tabs">
+                        <div class="tab-button active" data-category="consultation">
+                            <div class="tab-icon">
+                                <i class="fas fa-lightbulb"></i>
+                            </div>
+                            <span data-i18n="services.categories.tabs.consultation">Консультации</span>
+                        </div>
+                        <div class="tab-button" data-category="development">
+                            <div class="tab-icon">
+                                <i class="fas fa-code"></i>
+                            </div>
+                            <span data-i18n="services.categories.tabs.development">Разработка</span>
+                        </div>
+                        <div class="tab-button" data-category="testing">
+                            <div class="tab-icon">
+                                <i class="fas fa-bug"></i>
+                            </div>
+                            <span data-i18n="services.categories.tabs.testing">Тестирование</span>
+                        </div>
+                        <div class="tab-button" data-category="support">
+                            <div class="tab-icon">
+                                <i class="fas fa-headset"></i>
+                            </div>
+                            <span data-i18n="services.categories.tabs.support">Поддержка</span>
+                        </div>
+                    </div>
+
+                    <div class="category-content">
+                        <div class="category-panel active" id="consultation">
+                            <div class="panel-header">
+                                <h3 data-i18n="services.categories.panels.consultation.title">Техническое консультирование</h3>
+                                <p data-i18n="services.categories.panels.consultation.desc">Профессиональный анализ и рекомендации для вашего проекта</p>
+                            </div>
+                            <div class="panel-features">
+                                <div class="feature-item">
+                                    <div class="feature-icon">
+                                        <i class="fas fa-sitemap"></i>
+                                    </div>
+                                    <div class="feature-text">
+                                        <h4 data-i18n="services.categories.panels.consultation.features.architecture.title">Архитектурное проектирование</h4>
+                                        <p data-i18n="services.categories.panels.consultation.features.architecture.desc">Разработка оптимальной архитектуры системы с учетом ваших требований</p>
+                                    </div>
+                                </div>
+                                <div class="feature-item">
+                                    <div class="feature-icon">
+                                        <i class="fas fa-cogs"></i>
+                                    </div>
+                                    <div class="feature-text">
+                                        <h4 data-i18n="services.categories.panels.consultation.features.tech.title">Выбор технологий</h4>
+                                        <p data-i18n="services.categories.panels.consultation.features.tech.desc">Рекомендации по выбору подходящего технологического стека</p>
+                                    </div>
+                                </div>
+                                <div class="feature-item">
+                                    <div class="feature-icon">
+                                        <i class="fas fa-search"></i>
+                                    </div>
+                                    <div class="feature-text">
+                                        <h4 data-i18n="services.categories.panels.consultation.features.analysis.title">Анализ требований</h4>
+                                        <p data-i18n="services.categories.panels.consultation.features.analysis.desc">Детальный анализ бизнес-требований и технических спецификаций</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="category-panel" id="development">
+                            <div class="panel-header">
+                                <h3 data-i18n="services.categories.panels.development.title">Разработка программного обеспечения</h3>
+                                <p data-i18n="services.categories.panels.development.desc">Создание качественных решений с использованием современных технологий</p>
+                            </div>
+                            <div class="panel-features">
+                                <div class="feature-item">
+                                    <div class="feature-icon">
+                                        <i class="fas fa-globe"></i>
+                                    </div>
+                                    <div class="feature-text">
+                                        <h4 data-i18n="services.categories.panels.development.features.web.title">Веб-приложения</h4>
+                                        <p data-i18n="services.categories.panels.development.features.web.desc">Современные responsive веб-приложения с интуитивным интерфейсом</p>
+                                    </div>
+                                </div>
+                                <div class="feature-item">
+                                    <div class="feature-icon">
+                                        <i class="fas fa-mobile-alt"></i>
+                                    </div>
+                                    <div class="feature-text">
+                                        <h4 data-i18n="services.categories.panels.development.features.mobile.title">Мобильные приложения</h4>
+                                        <p data-i18n="services.categories.panels.development.features.mobile.desc">Нативные и кроссплатформенные мобильные решения</p>
+                                    </div>
+                                </div>
+                                <div class="feature-item">
+                                    <div class="feature-icon">
+                                        <i class="fas fa-database"></i>
+                                    </div>
+                                    <div class="feature-text">
+                                        <h4 data-i18n="services.categories.panels.development.features.database.title">Базы данных</h4>
+                                        <p data-i18n="services.categories.panels.development.features.database.desc">Проектирование и оптимизация баз данных для высокопроизводительных систем</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="category-panel" id="testing">
+                            <div class="panel-header">
+                                <h3 data-i18n="services.categories.panels.testing.title">Тестирование и отладка</h3>
+                                <p data-i18n="services.categories.panels.testing.desc">Обеспечение качества и надежности программного обеспечения</p>
+                            </div>
+                            <div class="panel-features">
+                                <div class="feature-item">
+                                    <div class="feature-icon">
+                                        <i class="fas fa-vial"></i>
+                                    </div>
+                                    <div class="feature-text">
+                                        <h4 data-i18n="services.categories.panels.testing.features.unit.title">Unit тестирование</h4>
+                                        <p data-i18n="services.categories.panels.testing.features.unit.desc">Автоматизированное тестирование отдельных компонентов системы</p>
+                                    </div>
+                                </div>
+                                <div class="feature-item">
+                                    <div class="feature-icon">
+                                        <i class="fas fa-puzzle-piece"></i>
+                                    </div>
+                                    <div class="feature-text">
+                                        <h4 data-i18n="services.categories.panels.testing.features.integration.title">Интеграционное тестирование</h4>
+                                        <p data-i18n="services.categories.panels.testing.features.integration.desc">Проверка взаимодействия между различными частями системы</p>
+                                    </div>
+                                </div>
+                                <div class="feature-item">
+                                    <div class="feature-icon">
+                                        <i class="fas fa-tools"></i>
+                                    </div>
+                                    <div class="feature-text">
+                                        <h4 data-i18n="services.categories.panels.testing.features.debug.title">Отладка багов</h4>
+                                        <p data-i18n="services.categories.panels.testing.features.debug.desc">Поиск и устранение ошибок в существующем коде</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="category-panel" id="support">
+                            <div class="panel-header">
+                                <h3 data-i18n="services.categories.panels.support.title">Техническая поддержка</h3>
+                                <p data-i18n="services.categories.panels.support.desc">Полное сопровождение проектов после сдачи</p>
+                            </div>
+                            <div class="panel-features">
+                                <div class="feature-item">
+                                    <div class="feature-icon">
+                                        <i class="fas fa-file-alt"></i>
+                                    </div>
+                                    <div class="feature-text">
+                                        <h4 data-i18n="services.categories.panels.support.features.docs.title">Техническая документация</h4>
+                                        <p data-i18n="services.categories.panels.support.features.docs.desc">Создание подробной документации для поддержки и развития проекта</p>
+                                    </div>
+                                </div>
+                                <div class="feature-item">
+                                    <div class="feature-icon">
+                                        <i class="fas fa-sync-alt"></i>
+                                    </div>
+                                    <div class="feature-text">
+                                        <h4 data-i18n="services.categories.panels.support.features.updates.title">Обновления и доработки</h4>
+                                        <p data-i18n="services.categories.panels.support.features.updates.desc">Регулярные обновления и внесение улучшений в существующие проекты</p>
+                                    </div>
+                                </div>
+                                <div class="feature-item">
+                                    <div class="feature-icon">
+                                        <i class="fas fa-chart-line"></i>
+                                    </div>
+                                    <div class="feature-text">
+                                        <h4 data-i18n="services.categories.panels.support.features.monitoring.title">Мониторинг и поддержка</h4>
+                                        <p data-i18n="services.categories.panels.support.features.monitoring.desc">Непрерывный мониторинг работы систем и оперативная техническая поддержка</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Детальные услуги -->
+        <section class="detailed-services">
+            <div class="container">
+                <h2 data-i18n="services.detailed.title">Подробное описание услуг</h2>
+                <div class="services-showcase">
+                    <div class="service-showcase-item">
+                        <div class="service-image">
+                            <i class="fas fa-globe"></i>
+                        </div>
+                        <div class="service-content">
+                            <h3 data-i18n="services.detailed.items.web.title">Веб-разработка</h3>
+                            <p data-i18n="services.detailed.items.web.desc">Создание современных веб-приложений с использованием передовых технологий. От простых лендингов до сложных корпоративных систем.</p>
+                            <div class="service-features">
+                                <span class="feature-tag">React</span>
+                                <span class="feature-tag">Node.js</span>
+                                <span class="feature-tag">Python</span>
+                                <span class="feature-tag">PostgreSQL</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="service-showcase-item">
+                        <div class="service-image">
+                            <i class="fas fa-mobile-alt"></i>
+                        </div>
+                        <div class="service-content">
+                            <h3 data-i18n="services.detailed.items.mobile.title">Мобильная разработка</h3>
+                            <p data-i18n="services.detailed.items.mobile.desc">Разработка мобильных приложений для iOS и Android с учетом лучших практик пользовательского опыта.</p>
+                            <div class="service-features">
+                                <span class="feature-tag">React Native</span>
+                                <span class="feature-tag">Flutter</span>
+                                <span class="feature-tag">Swift</span>
+                                <span class="feature-tag">Kotlin</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="service-showcase-item">
+                        <div class="service-image">
+                            <i class="fas fa-robot"></i>
+                        </div>
+                        <div class="service-content">
+                            <h3 data-i18n="services.detailed.items.automation.title">Автоматизация</h3>
+                            <p data-i18n="services.detailed.items.automation.desc">Автоматизация бизнес-процессов, создание ботов и систем автоматизации для повышения эффективности.</p>
+                            <div class="service-features">
+                                <span class="feature-tag">Python</span>
+                                <span class="feature-tag">Telegram API</span>
+                                <span class="feature-tag">Selenium</span>
+                                <span class="feature-tag">API Integration</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Технологии -->
+        <section class="technologies">
+            <div class="container">
+                <h2 data-i18n="services.technologies.title">Технологии и инструменты</h2>
+                <p class="section-subtitle" data-i18n="services.technologies.subtitle">Работаю с современными технологиями и фреймворками</p>
+
+                <div class="tech-categories">
+                    <div class="tech-category">
+                        <h3 data-i18n="services.technologies.categories.frontend">Frontend</h3>
+                        <div class="tech-icons">
+                            <div class="tech-item">
+                                <i class="fab fa-react"></i>
+                                <span>React</span>
+                            </div>
+                            <div class="tech-item">
+                                <i class="fab fa-vuejs"></i>
+                                <span>Vue.js</span>
+                            </div>
+                            <div class="tech-item">
+                                <i class="fab fa-angular"></i>
+                                <span>Angular</span>
+                            </div>
+                            <div class="tech-item">
+                                <i class="fab fa-js-square"></i>
+                                <span>JavaScript</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="tech-category">
+                        <h3 data-i18n="services.technologies.categories.backend">Backend</h3>
+                        <div class="tech-icons">
+                            <div class="tech-item">
+                                <i class="fab fa-node-js"></i>
+                                <span>Node.js</span>
+                            </div>
+                            <div class="tech-item">
+                                <i class="fab fa-python"></i>
+                                <span>Python</span>
+                            </div>
+                            <div class="tech-item">
+                                <i class="fab fa-java"></i>
+                                <span>Java</span>
+                            </div>
+                            <div class="tech-item">
+                                <i class="fab fa-php"></i>
+                                <span>PHP</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="tech-category">
+                        <h3 data-i18n="services.technologies.categories.databases">Базы данных</h3>
+                        <div class="tech-icons">
+                            <div class="tech-item">
+                                <i class="fas fa-database"></i>
+                                <span>PostgreSQL</span>
+                            </div>
+                            <div class="tech-item">
+                                <i class="fas fa-database"></i>
+                                <span>MySQL</span>
+                            </div>
+                            <div class="tech-item">
+                                <i class="fas fa-cubes"></i>
+                                <span>MongoDB</span>
+                            </div>
+                            <div class="tech-item">
+                                <i class="fas fa-database"></i>
+                                <span>Redis</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Процесс работы -->
+        <section class="work-process">
+            <div class="container">
+                <h2 data-i18n="services.process.title">Как я работаю</h2>
+                <div class="process-timeline">
+                    <div class="timeline-item">
+                        <div class="timeline-number">1</div>
+                        <div class="timeline-content">
+                            <h3 data-i18n="services.process.steps.1.title">Анализ и планирование</h3>
+                            <p data-i18n="services.process.steps.1.desc">Изучаю требования, анализирую проект и составляю техническое задание</p>
+                        </div>
+                    </div>
+                    <div class="timeline-item">
+                        <div class="timeline-number">2</div>
+                        <div class="timeline-content">
+                            <h3 data-i18n="services.process.steps.2.title">Проектирование</h3>
+                            <p data-i18n="services.process.steps.2.desc">Разрабатываю архитектуру решения и выбираю оптимальный технологический стек</p>
+                        </div>
+                    </div>
+                    <div class="timeline-item">
+                        <div class="timeline-number">3</div>
+                        <div class="timeline-content">
+                            <h3 data-i18n="services.process.steps.3.title">Разработка</h3>
+                            <p data-i18n="services.process.steps.3.desc">Пишу чистый, документированный код с регулярными отчетами о прогрессе</p>
+                        </div>
+                    </div>
+                    <div class="timeline-item">
+                        <div class="timeline-number">4</div>
+                        <div class="timeline-content">
+                            <h3 data-i18n="services.process.steps.4.title">Тестирование</h3>
+                            <p data-i18n="services.process.steps.4.desc">Проводится комплексное тестирование и отладка всех компонентов</p>
+                        </div>
+                    </div>
+                    <div class="timeline-item">
+                        <div class="timeline-number">5</div>
+                        <div class="timeline-content">
+                            <h3 data-i18n="services.process.steps.5.title">Сдача и поддержка</h3>
+                            <p data-i18n="services.process.steps.5.desc">Передача готового решения с документацией и гарантийной поддержкой</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Призыв к действию -->
+        <section class="final-cta">
+            <div class="container">
+                <h2 data-i18n="services.cta.title">Готовы начать свой проект?</h2>
+                <p data-i18n="services.cta.subtitle">Получите бесплатную консультацию и начните создавать что-то amazing</p>
+                <div class="cta-buttons">
+                    <a href="contacts.html" class="cta-button-primary" data-i18n="services.cta.buttons.contact">Связаться со мной</a>
+                    <a href="pricing.html" class="cta-button-secondary" data-i18n="services.cta.buttons.pricing">Посмотреть цены</a>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <div id="footer-placeholder"></div>
+</body>
+<script src="js/script.js"></script>
+<script src="js/pages/services.js"></script>
+</html>
