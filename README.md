@@ -1,82 +1,97 @@
 <div align="center">
 
-# ⚡ CODE CONSULTING | SOFTWARE SOLUTIONS
+# ⚡ CodeConsult | Professional IT Solutions
 
-**_Transforming Code into Your Business Weapon_**
+**_Transforming Ideas into Powerful Digital Solutions_**
 
 ![Home Page](preview/home.png)
 
 ---
 
-## 📜 LICENSE
+## 📋 About the Project
 
-[![License: Custom](https://img.shields.io/badge/License-CODE%20CONSULTING%20PROPRIETARY-red.svg)](LICENSE)
-[![Made by Vladislav](https://img.shields.io/badge/Made%20by-Владислав-blue.svg)](LICENSE)
+**CodeConsult** is a modern web platform showcasing expertise in software development. The project is designed for professional presentation of programming services and includes a fully functional website with modern design and interactive elements.
 
-**⚠️ WARNING:** This project is protected by a **proprietary license**. Any commercial use without written permission from the author is **STRICTLY PROHIBITED**.
-
-[📄 Detailed Terms of Use](LICENSE)
-
----
-
-## 🔥 ABOUT THE PROJECT
-
-**Modern website** for showcasing programming services. Fully responsive, with dark aesthetics and aggressive design. Created for professionals who value quality and results.
-
-### 🎯 KEY FEATURES
-
-- **🔥 RESPONSIVE DESIGN** - Kills it on all devices
-- **⚡ MODERN UI/UX** - Design that sticks in memory
-- **💀 MULTI-PAGE STRUCTURE** - Complete service information
-- **🎮 INTERACTIVE ELEMENTS** - Animations, particles, code window
-- **🌍 MULTILINGUAL SUPPORT** - Ready for expansion
-- **🔍 SEO OPTIMIZATION** - Visible in top search results
+[![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white)]()
+[![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white)]()
+[![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)]()
+[![Responsive](https://img.shields.io/badge/Responsive-4CAF50?style=for-the-badge)]()
 
 ---
 
-## 📸 PROJECT SCREENSHOTS
-
-### 🏠 HOME PAGE
-![Home Page](preview/home.png)
-_Home page with animated code window and statistics_
-
-### 🛠 SERVICES PAGE
-![Services Page](preview/services.png)
-_Full range of development services_
-
-### 💰 PRICING PAGE
-![Pricing Page](preview/pricing.png)
-_Transparent pricing structure_
-
-### ⭐ REVIEWS PAGE
-![Reviews Page](preview/reviews.png)
-_Real client testimonials_
-
-### 📞 CONTACTS PAGE
-![Contacts Page](preview/contacts.png)
-_Contact form and information_
-
----
-
-## 🚀 TECHNOLOGIES
+## 🎯 Key Features
 
 <div align="center">
 
-| **FRONTEND** | **BACKEND** | **TOOLS** |
-|-------------|-------------|-----------|
-| HTML5 🔥 | Node.js ⚡ | Git 💀 |
-| CSS3 🎨 | Python 🐍 | VSCode ⚡ |
-| JavaScript 💥 | PostgreSQL 🗄️ | Font Awesome 🎯 |
-| Canvas API 🎮 | SQLite 📦 | Responsive Design 📱 |
+| **Feature** | **Description** | **Status** |
+|-----------------|-------------|------------|
+| 📱 **Responsive Design** | Correct display on all devices | ✅ Full Support |
+| ⚡ **Modern Architecture** | Clean code, optimized performance | ✅ Implemented |
+| 📄 **Multi-page Structure** | Complete information about services and projects | ✅ 5 Main Pages |
+| 🎮 **Interactive Components** | Animations, particle effects, dynamic content | ✅ Canvas API |
+| 🔍 **SEO Optimization** | Prepared for search engines | ✅ Meta tags, structure |
+| 🎨 **Professional Design** | Dark theme, strict business style | ✅ Modern UI/UX |
 
 </div>
 
 ---
 
-## 📁 PROJECT STRUCTURE
+## 📸 Project Screenshots
+
+<div align="center">
+
+### 🏠 Home Page
+![Home Page](preview/home.png)
+*Home page with animated code window and statistics*
+
+### 🛠 Services Page
+![Services Page](preview/services.png)
+*Detailed description of technical capabilities and services*
+
+### 💰 Pricing Page
+![Pricing Page](preview/pricing.png)
+*Transparent pricing system with service packages*
+
+### ⭐ Reviews Page
+![Reviews Page](preview/reviews.png)
+*Real client testimonials and project case studies*
+
+### 📞 Contacts Page
+![Contacts Page](preview/contacts.png)
+*Contact form and information*
+
+</div>
+
+---
+
+## 🚀 Technologies
+
+<div align="center">
+
+### Frontend
+| **Technology** | **Description** | **Usage** |
+|---------------|-------------|------------------|
+| **HTML5** | Semantic markup | Page structure |
+| **CSS3** | Responsive layout | Grid, Flexbox, animations |
+| **JavaScript** | Interactivity | ES6+, modules, async/await |
+| **Canvas API** | Graphics effects | Particle effects, animations |
+
+### Backend & Tools
+| **Tool** | **Purpose** | **Status** |
+|----------------|---------------|------------|
+| **Node.js** | Runtime environment | Available |
+| **Python** | Automation | Scripting |
+| **PostgreSQL** | Main database | Ready for integration |
+| **Git** | Version control | Actively used |
+
+</div>
+
+---
+
+## 📁 Project Structure
 
 ```
-📦 CODE-CONSULTING/
+📦 CodeConsult/
 ├── 🏠 index.html              # Home page
 ├── 🛠 services.html           # Services
 ├── 💰 pricing.html            # Pricing
@@ -84,109 +99,128 @@ _Contact form and information_
 ├── 📞 contacts.html           # Contacts
 ├── 🧭 header.html             # Site header
 ├── 🦶 footer.html             # Site footer
+├── 📋 LICENSE                 # License
+├── 📖 README.md               # Documentation
 ├── 🎨 css/
-│   ├── styles.css          # Main styles
-│   └── pages/              # Page styles
+│   ├── styles.css           # Main styles
+│   └── pages/               # Page styles
 ├── ⚡ js/
-│   ├── script.js           # Main script
-│   └── pages/              # Page scripts
-├── 🖼️ images/                 # Images
+│   ├── script.js            # Main script
+│   └── pages/               # Page scripts
+├── 🖼️ images/                 # Graphic resources
 └── 📸 preview/                # Screenshots
 ```
 
 ---
 
-## ⚡ QUICK START
+## ⚡ Quick Start
 
-```bash
-# 1. Clone the project
-git clone [REPOSITORY-URL]
+### Requirements
+- Web browser with HTML5 support
+- Local web server (optional)
 
-# 2. Start local server
-cd code-consulting
-python -m http.server 8000
+### Installation
 
-# 3. Open in browser
-# http://localhost:8000
-```
+1. **Clone the repository:**
+   ```bash
+   git clone https://github.com/unSoto/CodeConsult.git
+   cd CodeConsult
+   ```
 
-**ALTERNATIVE START METHODS:**
-```bash
-# Via Node.js
-npx http-server
+2. **Start the server:**
+   ```bash
+   # Option 1: Python 3
+   python -m http.server 8000
 
-# Via PHP
-php -S localhost:8000
-```
+   # Option 2: Node.js
+   npx http-server -p 8000
 
----
+   # Option 3: PHP
+   php -S localhost:8000
+   ```
 
-## 📱 RESPONSIVENESS
-
-| 📱 **DEVICE** | 📐 **RESOLUTION** | ✅ **SUPPORT** |
-|---------------|------------------|----------------|
-| Mobile | 320px+ | 🔥 Full |
-| Tablet | 768px+ | 🔥 Full |
-| Laptop | 1024px+ | 🔥 Full |
-| Desktop | 1200px+ | 🔥 Full |
+3. **Open in browser:**
+   ```
+   http://localhost:8000
+   ```
 
 ---
 
-## 🎨 DESIGN FEATURES
-
-- **🌑 DARK THEME** - Aggressive and stylish appearance
-- **💫 ANIMATIONS** - Smooth transitions and effects
-- **📝 TYPOGRAPHY** - Readable fonts, clear hierarchy
-- **🎨 COLOR SCHEME** - Contrasting, memorable colors
-- **🎯 INTERACTIVITY** - Hover effects and micro-animations
-
----
-
-## 📊 PROJECT STATISTICS
+## 📱 Responsiveness
 
 <div align="center">
 
-| **METRIC** | **VALUE** | **STATUS** |
-|------------|-----------|------------|
-| Projects | 50+ | 🔥 ACTIVE |
-| Experience | 3+ years | 💀 PROFESSIONAL |
-| Satisfaction | 100% | ⚡ GUARANTEED |
-| Development Cycle | Complete | 🎯 A-Z |
+| 📱 **Device** | 📐 **Resolution** | ✅ **Support** |
+|------------------|------------------|-----------------|
+| **Mobile** | 320px+ | 🔥 Full |
+| **Tablets** | 768px+ | 🔥 Full |
+| **Laptops** | 1024px+ | 🔥 Full |
+| **Desktops** | 1200px+ | 🔥 Full |
 
 </div>
 
 ---
 
-## 🤝 CONTACT ME
+## 🎨 Design and UX
 
 <div align="center">
 
-**VLADISLAV** - **FULL-STACK DEVELOPER**
+### Visual Features
+- **🌑 Dark color scheme** - professional appearance
+- **📝 Readable typography** - clear hierarchy
+- **✨ Smooth animations** - interactive elements
+- **🧭 Intuitive navigation** - logical structure
 
-📧 **EMAIL:** [vlskrauch@mail.ru](mailto:vlskrauch@mail.ru)
-📱 **TELEGRAM:** [@worksoto](https://t.me/worksoto)
+### Technical Specifications
+- **⚡ Optimized performance**
+- **🔒 Semantic markup**
+- **🛡️ Valid HTML/CSS**
+- **📈 Scalable architecture**
 
 </div>
 
 ---
 
-## 💀 WHY CHOOSE ME?
+## 🤝 Contacts
 
-- **🔥 PERSONALIZED APPROACH** - Every solution is unique
-- **⚡ DEADLINE COMPLIANCE** - Time = money, I respect yours
-- **💎 CODE QUALITY** - Clean, documented, optimized
-- **🛡️ TECHNICAL SUPPORT** - Don't abandon projects after delivery
-- **🔒 CONFIDENTIALITY** - Your secrets die with me
-- **🤝 TRANSPARENCY** - Honesty above all else
+<div align="center">
+
+### **VLADISLAV** - Full-Stack Developer
+
+📧 **Email:** [vlskrauch@mail.ru](mailto:vlskrauch@mail.ru)
+📱 **Telegram:** [@worksoto](https://t.me/worksoto)
+🌍 **Location:** Yekaterinburg, Russia
+
+</div>
+
+---
+
+## 📜 License
+
+**⚠️ WARNING:** This project is protected by a **proprietary license**.
+
+❌ **Prohibited:**
+- Commercial use without permission
+- Copying code for profit
+- Creating derivative products for sale
+
+✅ **Allowed:**
+- Studying code for educational purposes
+- Personal non-commercial use
+- Portfolio demonstration
+
+[📄 Detailed Terms](LICENSE)
 
 ---
 
 <div align="center">
 
-## ⭐ IF THE PROJECT HOOKED YOU - GIVE IT A STAR!
+## ⭐ Like the project? Give it a star!
 
-**_Created with ❤️ and ☕ for those who understand quality code_**
+**_Created with ❤️ for IT industry professionals_**
 
 ---
 
-**© 2025 CODE CONSULTING. ALL RIGHTS RESERVED.**
+**© 2025 CodeConsult. All rights reserved.**
+
+</div>
