@@ -39,7 +39,7 @@ Modern web platform for programming services and software development. Showcases
 
 ## 📹 Video Preview
 
-You can watch the project demo video at: `preview/2025-09-23 14-24-26.mp4`
+You can watch the project demo video at: `preview/CodeConsultPresentation.mp4`
 
 ## 🚀 Technologies
 
