@@ -37,6 +37,12 @@ Modern web platform for programming services and software development. Showcases
 ![Contacts Page](preview/contacts.png)
 *Contact form and information*
 
+## 🎥 Project Demo Video
+
+### Preview Video
+[![Project Demo](preview/2025-09-23%2014-24-26.mp4)](preview/2025-09-23%2014-24-26.mp4)
+*Complete walkthrough of the website functionality and features*
+
 ## 🚀 Technologies
 
 ### Frontend
